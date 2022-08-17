@@ -1,0 +1,183 @@
+label {
+    display: block;
+}
+
+input#title {
+    width: 40em;
+    
+}
+
+#title,h2,a{
+word-wrap: break-word;
+}
+
+textarea {
+    height: 10em;
+    width: 55em;
+}
+
+body {
+    text-align: center;
+    background: #222222;    
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 10px auto;
+    text-align: left;
+    border: 1px solid grey;
+    padding: 20px;
+    background: #EEEEEE;
+}
+
+.blog_post{
+    border: 1px solid #987CB9;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+div.blog_post h2 a, div#header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+div#header h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+div.blog_post h2 {
+    margin-bottom: 0;
+}
+
+div.blog_post p {
+    margin-top: 0;
+}
+
+div.blog_post div.blog_content p {
+    margin-top: 0.5em;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+ul#menu {
+    padding-left: 0;    
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+ul#menu li a.active {
+    border: 2px solid grey;
+    background: #999999;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul#menu li a:hover {
+    background: #AAAAAA;
+    color: black;
+}
+
+div#all_blogs {
+    border: 2px solid grey;
+    padding: 0 10px 10px 10px;
+}
+
+h1, h2 {
+    font-family: Cambria, times, serif;
+}
+
+div.blog_content {
+    font-family: Calibri, sans-serif;
+    font-size: 1.2em;
+}
+
+div#footer {
+    text-align: right;
+    margin-top: 10px;
+    
+}
+.image{
+    width: 40%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.view_comment{
+border-radius: 5px;
+background-color: #D1F9D9;
+font-size: 0.8em;
+}
+
+#leave_comment{
+    display: flex;
+    justify-content : space-between;
+    background-color: #F7F9EC;
+}
+
+#type_comment{
+    padding-top: 25px;
+}
+
+.comment{
+    border: solid;
+    margin-top: 10px;
+}
+
+.sortedby{
+    color: red;
+    background-color: #F7F9EC;
+    text-align: right;
+}
+
+.category{
+    color: red;
+}
+
+.category_table{
+    background-color: #E7FDE3;
+    border: 1px solid #5E7410;
+    margin: 5px auto;
+    width: 90%;
+}
+
+.category_table tbody tr th{
+            background-color: #D5DC09;
+            color: #FFF;
+            padding: 9px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 1px 1px 2px #000;
+        }
+ .category_table tbody td{
+            border-top: 1px solid #5E7410;
+        }
+
+#search{
+    text-align: right;
+}
+
+.search{
+    background-color: #4ABEE0;
+    font-size: 1.0em;
+    border-radius: 10px;
+}
+
+.search_input{
+    width: 30%;
+}
